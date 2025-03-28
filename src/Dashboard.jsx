@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { UICard as Card, CardContent } from "../components/ui/UICard";
+import { MiniCard as Card, CardContent } from "../components/ui/MiniCard";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Bar, PieChart, Pie, Cell } from "recharts";
 
 const monthlyData = [
