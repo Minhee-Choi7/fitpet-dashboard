@@ -1,5 +1,5 @@
 
-export function UICard({ children }) {
+export function Card({ children }) {
   return <div style={{
     background: "#fff",
     borderRadius: "12px",
@@ -9,6 +9,6 @@ export function UICard({ children }) {
   }}>{children}</div>
 }
 
-export function UICardContent({ children }) {
+export function CardContent({ children }) {
   return <div>{children}</div>
 }
